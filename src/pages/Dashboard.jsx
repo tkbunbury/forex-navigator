@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import endPoints from '../app/api';
-import { PAIRS, GRANULARITIES, COUNTS } from '../app/data';
+import { COUNTS } from '../app/data';
 import Select from '../components/Select';
 import TitleHead from '../components/TitleHead';
 import Button from '../components/Button';
