@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd 3D-game
+    cd forex-navigator
 
 3. Install dependencies:
 
