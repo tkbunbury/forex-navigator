@@ -9,12 +9,10 @@ function PriceChart({
 
         useEffect(() => {
             if(priceData) {
-                //console.log("Draw Chart ", selectedPair, selectedGranularity);
-                //console.log("Draw Chart ", selectedCount);
                 drawChart(priceData, selectedPair, selectedGranularity, 'chartDiv');
             }
 
-        }, [priceData]);
+        }, [priceData, selectedPair, selectedGranularity]);
 
     return (
     <div className='segment' id='price-chart-holder'>
