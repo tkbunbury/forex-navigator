@@ -47,7 +47,7 @@ const loadTechnicals = async () => {
   loadPrices(selectedCount);
   }
 
-if(loading == true) return <h1>Loading...</h1>
+if(loading === true) return <h1>Loading...</h1>
 
 
   return (
